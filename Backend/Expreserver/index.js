@@ -1,4 +1,7 @@
+import 'dotenv/config';
 import express from 'express';
+import pool from './db/postgres.js';
+
 const app = express();
 const port = 3000;
 
